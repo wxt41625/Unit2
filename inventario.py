@@ -1,0 +1,21 @@
+
+inventario = [
+    {"hostname": "Core-SW01", "ip": "10.0.0.1", "status": "up"},
+    {"hostname": "Dist-SW02", "ip": "10.0.0.2", "status": "down"},
+    {"hostname": "Access-SW03", "ip": "10.0.0.3", "status": "up"},
+    {"hostname": "Edge-R01", "ip": "172.16.1.1", "status": "down"}
+]
+
+
+##Imprimir todos los hostname
+for h in inventario:
+    print(h["hostname"])
+## imprimir todas las IPs
+for i in inventario:
+    print(i["ip"])
+## Imprimir todos los que esten en down
+for s in inventario:
+    if ["status"] == "down":
+        print(s[status])
+
+
