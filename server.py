@@ -28,6 +28,8 @@ def saludo(nombre):
 @app.route('/dispositivo/<device>')
 def buscar_dispositivo(device):
     return f"{device}"
+    return f"{ip}"
+    return f"{status}"
     for i in inventario:
         if device == ["hostname"]:
             print(i["ip"],i["status"])
